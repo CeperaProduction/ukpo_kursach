@@ -9,4 +9,4 @@ jdk:
 
 
 script:
-  - ./gradlew build --scan -s
+  - ./gradlew clean build
