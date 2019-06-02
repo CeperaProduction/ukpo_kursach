@@ -6,7 +6,8 @@ build/
 bin/
 
 #temp and internal dirs
-.*/
+.gradle/
+.settings/
 
 # Log file
 *.log
