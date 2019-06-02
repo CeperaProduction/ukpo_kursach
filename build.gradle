@@ -29,4 +29,9 @@ test {
 	systemProperty "file.encoding", "utf-8"
     useJUnit()
     maxHeapSize = '1G'
+    
+    testLogging {
+        events "passed", "skipped", "failed"
+        exceptionFormat "short"
+    }
 }
